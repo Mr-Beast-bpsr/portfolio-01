@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+.header-wrapper{
+    position: relative;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        /* bottom, image */
+        url(".././coding-06.jpg")  no-repeat;
+        background-size: cover;
+        background-position:center;
+        height:100vh
+    
+    }
+    .main-info{
+    z-index: 1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    font-family:"Roboto Condesed",sans-serif;
+}
+.main-info > h1{
+    
+    text-transform:uppercase;
+    font-size: 2rem;
+    background: linear-gradient(to right,#e5e5e6af 0%, #ffffff  100%);
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+        
+        
+}
+@media (max-width: 768px) {
+    .main-info> h1{
+        font-size:1.2rem ;    }
+        
+    }
+    .typed-text{
+        color: antiquewhite;
+        font-size:2rem;
+        
+    }
+    @media (max-width: 768px) {
+        .typed-text{
+            font-size:1rem
+        }  }
+
+.btn-main-offer{
+    border : 1px solid rgb(199, 190, 190);
+    text-decoration: none;
+    border: radius 0;
+    padding : 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: White !important;
+    margin-top:3rem;
+} 
+.btn-main-offer:hover{
+    background-color:white !important;
+    color:black !important;
+    transition: .6s ease-in-out
+}
+
+canvas{
+    position: absolute;
+    height: 100vh;
+    width: 10vw;
+    z-index: 1;
+}

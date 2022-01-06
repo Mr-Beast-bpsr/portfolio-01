@@ -1,0 +1,63 @@
+.mainPort{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.178);
+
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  justify-content: space-around;
+    flex: 1 0 33%;
+    padding: 0.2rem; 
+    border: 0;
+    background-color: rgba(236, 234, 234, 0.507);
+    border-radius: 10px;
+    max-width: 15rem !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+@media (max-width:786px) {
+    .card{
+       
+        max-width: 10rem !important;
+    }
+}
+.card:hover{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.534) 0px 50px 100px -20px, rgba(0, 0, 0, 0.75) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .card-img-top{
+      padding-top:-12px;
+      border-radius:10px 10px 0 0 0;
+      
+  }
+
+
+  .btn{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+  }
+  .card-btn{
+    display: flex;
+    
+    flex-direction: column;
+    
+  }
+  .card-btn >a {
+    margin: 5px;
+      font-size: 1.2rem !important;
+  }
+  a:hover{
+    transform: scale(1.09);
+  }
+.git{
+     
+      width:11rem;
+  
+  }

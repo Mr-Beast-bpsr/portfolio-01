@@ -1,0 +1,56 @@
+
+
+
+:root{
+    --primary-white: #fff;
+
+    --primary-green: limegreen;
+}
+body
+{
+    font-family: "Roboto Condensed" sans-serif ;
+    
+   
+}
+.navbar{
+    position: fixed !important; /* Set the navbar to fixed position */
+    top: 0 !important; /* Position the navbar at the top of the page */
+    width: 100% !important; /* Full width */
+  
+}
+nav{
+  
+    z-index: 2;
+    
+  
+}
+.img-nav{
+    
+width: 8rem;
+}
+
+/* Menu Links */
+nav a.nav-link{
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+}
+
+nav ul li{
+text-transform: uppercase;
+}
+/* re write bootstrap ruless */
+.navbar-nav > li >a{
+    color: var(--primary-white) !important;
+    margin: 0 0.75rem 0 0.75rem ;
+}
+.navbar-brand{
+    max-width: 13.2rem;
+    padding: 0 !important
+}
+.nav-link:active{
+    border-top: 5px solid var(--primary-white);
+}
+.nav-link:hover{
+    border-top: 5px solid var(--primary-white);
+}
