@@ -121,3 +121,10 @@ textarea:focus, input:focus{
     flex-direction: row;
   }
 }
+.success{
+    opacity: 0;
+    color: rgb(0, 194, 0);
+}
+.vissuble{
+    opacity: 1;
+}

@@ -14,6 +14,7 @@ const Contact = () => {
             console.log(error.text);
         });
         e.target.reset();
+        document.querySelector('.success').style.opacity = 1;
     };
   
     return (
@@ -24,6 +25,7 @@ const Contact = () => {
         <hr size="10" color="white"/>
       <form ref={form} onSubmit={sendEmail}>
       <div className="name tex">
+        <p className="success">Message sent successfully.</p> 
 
         <label>Name</label>
         <input type="text" name="user_name" className="form-control form-control-sm"  placeholder="Please enter your name"required/>

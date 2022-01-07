@@ -2,6 +2,7 @@
 
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -38,9 +39,5 @@
     transform: rotate(360deg);
   }
 }
-@media (max-width: 768px) 
-{
-.particles-canvas{
-    display: none;
-}    
-}
+
+

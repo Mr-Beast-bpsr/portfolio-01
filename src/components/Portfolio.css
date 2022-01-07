@@ -4,10 +4,13 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    z-index: 1;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.178);
 
 }
 .card{
+  z-index: 1;
     justify-content: center;
     align-items: center;
     margin: 1rem;
@@ -60,4 +63,19 @@
      
       width:11rem;
   
+  }
+  @media (max-width: 768px) {
+    .git{
+     
+      width:8rem;
+  
+  }
+  .card-btn >a{
+    font-size: 0.8rem !important;
+
+  }
+  .card-title {
+    font-size: 0.8rem !important;
+
+  }
   }

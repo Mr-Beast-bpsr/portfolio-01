@@ -16,7 +16,7 @@ body
     position: fixed !important; /* Set the navbar to fixed position */
     top: 0 !important; /* Position the navbar at the top of the page */
     width: 100% !important; /* Full width */
-  
+    background-color: #000000a1 !important;
 }
 nav{
   
@@ -25,8 +25,8 @@ nav{
   
 }
 .img-nav{
-    
-width: 8rem;
+   
+width: 5rem;
 }
 
 /* Menu Links */
