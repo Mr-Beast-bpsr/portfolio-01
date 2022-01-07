@@ -7,10 +7,6 @@ import Particles from "react-tsparticles";
 const header = () => {
 
 
-    const showParticles = 
-    setTimeout(() => {
-      return true
-    }, 500);
     
     return (
 
