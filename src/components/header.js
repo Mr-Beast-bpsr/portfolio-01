@@ -40,7 +40,7 @@ const header = () => {
                         size: 40,
                     },
                     push: {
-                        quantity: 4,
+                        quantity: 2,
                     },
                     repulse: {
                         distance: 200,
@@ -75,10 +75,10 @@ const header = () => {
                         enable: true,
                         
                     },
-                    value: 60,
+                    value: 40,
                 },
                 opacity: {
-                    value: 0.8,
+                    value: 0.7,
                 },
                 shape: {
                     type: "circle",

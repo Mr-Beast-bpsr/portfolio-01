@@ -13,22 +13,25 @@ const About = () => {
             <span className="h1 blast ">N</span>
             <span className="h1 blast ">U</span>
             </h1>
-            <div>
+            <div className="text-dev">
             <span className="blast "  >A </span>
             <span className="blast"  >  </span>
             <span className="blast D"  > w</span>
-            <span className="blast" aria-hidden="true" >e</span>
-            <span className="blast" aria-hidden="true" >b  </span>
-            <span className="blast" aria-hidden="true" > <br/> </span>
-            <span className="blast D" aria-hidden="true" >D</span>
-            <span className="blast" aria-hidden="true" >e</span>
-            <span className="blast" aria-hidden="true" >v</span>
-            <span className="blast" aria-hidden="true" >l</span>
-            <span className="blast" aria-hidden="true" >o</span>
-            <span className="blast" aria-hidden="true" >p</span>
-            <span className="blast" aria-hidden="true" >e</span>
-            <span className="blast" aria-hidden="true" >r</span>
+            <span className="blast"  >e</span>
+            <span className="blast"  >b  </span>
+            <span className="blast"  > <br/> </span>
+            <span className="blast D"  >D</span>
+            <span className="blast"  >e</span>
+            <span className="blast"  >v</span>
+            <span className="blast"  >e</span>
+            <span className="blast"  >l</span>
+            <span className="blast"  >o</span>
+            <span className="blast"  >p</span>
+            <span className="blast"  >e</span>
+            <span className="blast"  >r.</span>
+          
            
+            <span className="blast smile"  >(●'◡'●)</span>
      </div>       
         
             <p className="p3"><Type className="typedtexts" 
