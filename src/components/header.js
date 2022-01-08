@@ -40,7 +40,7 @@ const header = () => {
                         size: 40,
                     },
                     push: {
-                        quantity: 2,
+                        quantity: 5,
                     },
                     repulse: {
                         distance: 200,
