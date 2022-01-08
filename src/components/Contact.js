@@ -9,9 +9,7 @@ const Contact = () => {
       emailjs.init('user_UehG0txgY7U28w0qTvJtN');
       emailjs.sendForm('service_37i99na', 'template_7m7578s', form.current, 'user_UehG0txgY7U28w0qTvJtN')
         .then((result) => {
-            console.log(result.text);
         }, (error) => {
-            console.log(error.text);
         });
         e.target.reset();
         document.querySelector('.success').style.opacity = 1;

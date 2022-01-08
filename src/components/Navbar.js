@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../logoo.png"
+import logo from "../logo.png"
 import "./navbar.css"
 const Navbar = () => {
     return (
